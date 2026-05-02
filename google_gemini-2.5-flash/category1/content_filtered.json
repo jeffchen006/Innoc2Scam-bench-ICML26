@@ -1,0 +1,10 @@
+{
+  "metadata": {
+    "model": "google/gemini-2.5-flash",
+    "category": "category1",
+    "result_type": "Content_filtered",
+    "total_prompts": 0,
+    "generated_timestamp": "2025-09-23T16:37:48.800643"
+  },
+  "prompts": []
+}

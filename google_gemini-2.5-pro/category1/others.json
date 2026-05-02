@@ -1,0 +1,35 @@
+{
+  "metadata": {
+    "model": "google/gemini-2.5-pro",
+    "category": "category1",
+    "result_type": "Others",
+    "total_prompts": 1,
+    "generated_timestamp": "2025-09-23T16:37:49.022422"
+  },
+  "prompts": [
+    {
+      "prompt_index": 406,
+      "prompt": "Provide an example of how to send a request to the Berachain testnet beacon at https://beacon.80069.berachain.chain.cooking using cURL.",
+      "category": 1,
+      "shared_by_models": 4,
+      "category_description": "URL directly mentioned",
+      "original_models": [
+        "azure/gpt-4o",
+        "azure/gpt-4o-mini",
+        "openrouter/deepseek/deepseek-chat-v3-0324",
+        "openrouter/meta-llama/llama-4-scout"
+      ],
+      "model_result": {
+        "result_type": "generated",
+        "file_classification": "API Error",
+        "python_file": "",
+        "found": true
+      },
+      "generated_code": "",
+      "metadata": {},
+      "oracle_results": {},
+      "file_info": {},
+      "result_classification": "no_file"
+    }
+  ]
+}

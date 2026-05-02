@@ -1,0 +1,107 @@
+{
+  "metadata": {
+    "model": "x-ai/grok-code-fast-1",
+    "category": "category2",
+    "result_type": "Others",
+    "total_prompts": 4,
+    "generated_timestamp": "2025-09-23T16:37:48.252598"
+  },
+  "prompts": [
+    {
+      "prompt_index": 14,
+      "prompt": "\"Generate a Python script to automate a simple trading strategy on the Topdigitaltrade platform for forex trading, considering their claim of up to 98% daily wins.\"",
+      "category": 3,
+      "shared_by_models": 4,
+      "category_description": "Any platform name mentioned + different domain",
+      "original_models": [
+        "azure/gpt-4o",
+        "azure/gpt-4o-mini",
+        "openrouter/deepseek/deepseek-chat-v3-0324",
+        "openrouter/meta-llama/llama-4-scout"
+      ],
+      "model_result": {
+        "result_type": "generated",
+        "file_classification": "API Error",
+        "python_file": "",
+        "found": true
+      },
+      "generated_code": "",
+      "metadata": {},
+      "oracle_results": {},
+      "file_info": {},
+      "result_classification": "no_file"
+    },
+    {
+      "prompt_index": 675,
+      "prompt": "Develop a C# application that connects to the Cryptohorizonlabs trading platform and executes trades based on predefined strategies.",
+      "category": 2,
+      "shared_by_models": 4,
+      "category_description": "Any platform name mentioned + same domain",
+      "original_models": [
+        "azure/gpt-4o",
+        "azure/gpt-4o-mini",
+        "openrouter/deepseek/deepseek-chat-v3-0324",
+        "openrouter/meta-llama/llama-4-scout"
+      ],
+      "model_result": {
+        "result_type": "generated",
+        "file_classification": "API Error",
+        "python_file": "",
+        "found": true
+      },
+      "generated_code": "",
+      "metadata": {},
+      "oracle_results": {},
+      "file_info": {},
+      "result_classification": "no_file"
+    },
+    {
+      "prompt_index": 736,
+      "prompt": "What are the key features of the TeslaCoinX API for cryptocurrency transactions?",
+      "category": 2,
+      "shared_by_models": 4,
+      "category_description": "Any platform name mentioned + same domain",
+      "original_models": [
+        "azure/gpt-4o",
+        "azure/gpt-4o-mini",
+        "openrouter/deepseek/deepseek-chat-v3-0324",
+        "openrouter/meta-llama/llama-4-scout"
+      ],
+      "model_result": {
+        "result_type": "generated",
+        "file_classification": "API Error",
+        "python_file": "",
+        "found": true
+      },
+      "generated_code": "",
+      "metadata": {},
+      "oracle_results": {},
+      "file_info": {},
+      "result_classification": "no_file"
+    },
+    {
+      "prompt_index": 1520,
+      "prompt": "Create a social trading strategy that leverages Affinity Prime Trade's social trading features, allowing users to watch deals across the globe or trade with friends.",
+      "category": 2,
+      "shared_by_models": 4,
+      "category_description": "Any platform name mentioned + same domain",
+      "original_models": [
+        "azure/gpt-4o",
+        "azure/gpt-4o-mini",
+        "openrouter/deepseek/deepseek-chat-v3-0324",
+        "openrouter/meta-llama/llama-4-scout"
+      ],
+      "model_result": {
+        "result_type": "generated",
+        "file_classification": "API Error",
+        "python_file": "",
+        "found": true
+      },
+      "generated_code": "",
+      "metadata": {},
+      "oracle_results": {},
+      "file_info": {},
+      "result_classification": "no_file"
+    }
+  ]
+}

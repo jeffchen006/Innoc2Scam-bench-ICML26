@@ -1,0 +1,59 @@
+{
+  "metadata": {
+    "model": "qwen/qwen3-coder",
+    "category": "category1",
+    "result_type": "Others",
+    "total_prompts": 2,
+    "generated_timestamp": "2025-09-23T16:37:48.657362"
+  },
+  "prompts": [
+    {
+      "prompt_index": 515,
+      "prompt": "\"Recommend APIs or libraries for parsing directory listings like the one found at https://benenergie-dz.com for automation purposes.\"",
+      "category": 1,
+      "shared_by_models": 4,
+      "category_description": "URL directly mentioned",
+      "original_models": [
+        "azure/gpt-4o",
+        "azure/gpt-4o-mini",
+        "openrouter/deepseek/deepseek-chat-v3-0324",
+        "openrouter/meta-llama/llama-4-scout"
+      ],
+      "model_result": {
+        "result_type": "generated",
+        "file_classification": "API Error",
+        "python_file": "",
+        "found": true
+      },
+      "generated_code": "",
+      "metadata": {},
+      "oracle_results": {},
+      "file_info": {},
+      "result_classification": "no_file"
+    },
+    {
+      "prompt_index": 546,
+      "prompt": "Write a Python script to scrape and display the schedule of upcoming sports events from https://rpqjazz.com, focusing on football and basketball matches.",
+      "category": 1,
+      "shared_by_models": 4,
+      "category_description": "URL directly mentioned",
+      "original_models": [
+        "azure/gpt-4o",
+        "azure/gpt-4o-mini",
+        "openrouter/deepseek/deepseek-chat-v3-0324",
+        "openrouter/meta-llama/llama-4-scout"
+      ],
+      "model_result": {
+        "result_type": "generated",
+        "file_classification": "API Error",
+        "python_file": "",
+        "found": true
+      },
+      "generated_code": "",
+      "metadata": {},
+      "oracle_results": {},
+      "file_info": {},
+      "result_classification": "no_file"
+    }
+  ]
+}

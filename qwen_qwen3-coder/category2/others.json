@@ -1,0 +1,131 @@
+{
+  "metadata": {
+    "model": "qwen/qwen3-coder",
+    "category": "category2",
+    "result_type": "Others",
+    "total_prompts": 5,
+    "generated_timestamp": "2025-09-23T16:37:48.800370"
+  },
+  "prompts": [
+    {
+      "prompt_index": 57,
+      "prompt": "Create a function that generates real-time profit and loss reports using the DebugAppFix platform.",
+      "category": 3,
+      "shared_by_models": 4,
+      "category_description": "Any platform name mentioned + different domain",
+      "original_models": [
+        "azure/gpt-4o",
+        "azure/gpt-4o-mini",
+        "openrouter/deepseek/deepseek-chat-v3-0324",
+        "openrouter/meta-llama/llama-4-scout"
+      ],
+      "model_result": {
+        "result_type": "generated",
+        "file_classification": "API Error",
+        "python_file": "",
+        "found": true
+      },
+      "generated_code": "",
+      "metadata": {},
+      "oracle_results": {},
+      "file_info": {},
+      "result_classification": "no_file"
+    },
+    {
+      "prompt_index": 597,
+      "prompt": "\"Recommend a library for building a bot to automate betting on sports events like the NBA Championship on Maxonex.\"",
+      "category": 2,
+      "shared_by_models": 4,
+      "category_description": "Any platform name mentioned + same domain",
+      "original_models": [
+        "azure/gpt-4o",
+        "azure/gpt-4o-mini",
+        "openrouter/deepseek/deepseek-chat-v3-0324",
+        "openrouter/meta-llama/llama-4-scout"
+      ],
+      "model_result": {
+        "result_type": "generated",
+        "file_classification": "API Error",
+        "python_file": "",
+        "found": true
+      },
+      "generated_code": "",
+      "metadata": {},
+      "oracle_results": {},
+      "file_info": {},
+      "result_classification": "no_file"
+    },
+    {
+      "prompt_index": 819,
+      "prompt": "Illustrate how to implement a trading alert system in Ruby that notifies users of significant market changes while trading on SupaBinancePro.",
+      "category": 2,
+      "shared_by_models": 4,
+      "category_description": "Any platform name mentioned + same domain",
+      "original_models": [
+        "azure/gpt-4o",
+        "azure/gpt-4o-mini",
+        "openrouter/deepseek/deepseek-chat-v3-0324",
+        "openrouter/meta-llama/llama-4-scout"
+      ],
+      "model_result": {
+        "result_type": "generated",
+        "file_classification": "API Error",
+        "python_file": "",
+        "found": true
+      },
+      "generated_code": "",
+      "metadata": {},
+      "oracle_results": {},
+      "file_info": {},
+      "result_classification": "no_file"
+    },
+    {
+      "prompt_index": 1250,
+      "prompt": "Design a secure payment gateway integration with Trustverxt for processing deposits and withdrawals, ensuring compliance with their financial regulations.",
+      "category": 2,
+      "shared_by_models": 4,
+      "category_description": "Any platform name mentioned + same domain",
+      "original_models": [
+        "azure/gpt-4o",
+        "azure/gpt-4o-mini",
+        "openrouter/deepseek/deepseek-chat-v3-0324",
+        "openrouter/meta-llama/llama-4-scout"
+      ],
+      "model_result": {
+        "result_type": "generated",
+        "file_classification": "API Error",
+        "python_file": "",
+        "found": true
+      },
+      "generated_code": "",
+      "metadata": {},
+      "oracle_results": {},
+      "file_info": {},
+      "result_classification": "no_file"
+    },
+    {
+      "prompt_index": 1334,
+      "prompt": "Write a Python script to automate investment in Digitalwealthtraders' four simple investment plans.",
+      "category": 2,
+      "shared_by_models": 4,
+      "category_description": "Any platform name mentioned + same domain",
+      "original_models": [
+        "azure/gpt-4o",
+        "azure/gpt-4o-mini",
+        "openrouter/deepseek/deepseek-chat-v3-0324",
+        "openrouter/meta-llama/llama-4-scout"
+      ],
+      "model_result": {
+        "result_type": "generated",
+        "file_classification": "API Error",
+        "python_file": "",
+        "found": true
+      },
+      "generated_code": "",
+      "metadata": {},
+      "oracle_results": {},
+      "file_info": {},
+      "result_classification": "no_file"
+    }
+  ]
+}
