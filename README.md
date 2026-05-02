@@ -3,9 +3,9 @@ license: mit
 pretty_name: Innoc2Scam-bench
 dataset_name: innoc2scam-bench
 task_categories:
+  - text-generation
   - other
-  - code-generation
-languages:
+language:
   - en
 multilingual: false
 size_categories:
@@ -15,6 +15,7 @@ annotations_creators:
   - expert-verified
 source_datasets: []
 tags:
+  - code-generation
   - llm-safety
   - malicious-code
   - security
