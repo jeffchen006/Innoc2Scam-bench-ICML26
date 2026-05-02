@@ -49,6 +49,8 @@ This dataset was constructed for the paper **"Scam2Prompt: A Scalable Framework 
 **GitHub:** https://github.com/jeffchen006/Innoc2Scam-bench-ICML26  
 **Hugging Face:** https://huggingface.co/datasets/jeffchen006/Innoc2Scam-bench-ICML26
 
+These two links refer to the same public release of Innoc2Scam-bench; the content is hosted on both GitHub and Hugging Face for convenience.
+
 ## Dataset At A Glance
 
 | Item | Count |
@@ -102,8 +104,9 @@ Innoc2Scam-bench.json
     complete_but_not_malicious.json
     content_filtered.json
     others.json
-download_innoc2scam.py
-validate_llms.py
+scripts/
+  download_innoc2scam.py
+  validate_llms.py
 openaiPackage/
 oraclePackage/
 ```
@@ -132,7 +135,7 @@ cd Innoc2Scam-bench-ICML26
 If you are working from the Hugging Face Hub instead:
 
 ```bash
-python3 download_innoc2scam.py --output-dir data/innoc2scam --extract-prompts
+python3 scripts/download_innoc2scam.py --output-dir data/innoc2scam --extract-prompts
 ```
 
 This downloads `jeffchen006/Innoc2Scam-bench-ICML26` and optionally writes a flattened `prompts.jsonl`.
@@ -231,7 +234,7 @@ CHAINPATROL_API_KEY=...
 Then run a small smoke test:
 
 ```bash
-python3 validate_llms.py --model anthropic/claude-sonnet-4 --limit 5 --log-level INFO
+python3 scripts/validate_llms.py --model anthropic/claude-sonnet-4 --limit 5 --log-level INFO
 ```
 
 Each run writes artifacts under:
