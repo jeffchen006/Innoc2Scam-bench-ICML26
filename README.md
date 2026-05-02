@@ -251,12 +251,16 @@ Live validation requires external API credentials, so it is optional for users w
 
 ### 7. Load From Hugging Face
 
-After the public dataset is uploaded, it can be loaded with:
+The prompt array can be loaded directly from Hugging Face with:
 
 ```python
 from datasets import load_dataset
 
-ds = load_dataset("jeffchen006/Innoc2Scam-bench-ICML26")
+ds = load_dataset(
+    "json",
+    data_files="https://huggingface.co/datasets/jeffchen006/Innoc2Scam-bench-ICML26/resolve/main/Innoc2Scam-bench.json",
+    field="prompts",
+)
 print(ds)
 ```
 
